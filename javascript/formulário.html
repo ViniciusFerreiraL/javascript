@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario aula 22-06</title>
+</head>
+<body>
+<h1>Formulário</h1>
+
+<fieldset>
+<legend>Dados Pessoais</legend>
+<label>nome: <input type="text" name="nome"></label><br>
+<label>idade: <input type="text" name="idade"></label><br>
+<label>cidade <input type="text" name="cidade"></label>
+<legend>Estado</legend>
+<select name="estado">
+    <option value="ac">Acre</option>
+    <option value="am">Amazonas</option>
+    <option value="Ro">Rondonia</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Dados profissionais</legend>
+<label>Escolaridade
+<select name="escolaridade">
+    <option value="em">Ensino Médio</option>
+    <option value="nt">Nível Técnico</option>
+    <option value="ns">Nível Superior</option>
+</select>
+</label>
+<br>
+
+
+<label>área de atuação
+    <input type="radio" name="cargo" value="1" checked> Gerência
+    <input type="radio" name="cargo" value="2" checked> Financeiro
+    <input type="radio" name="cargo" value="3" checked> Recepção
+</fieldset>
+
+
+
+</label>
+    <form action="gravar.php" method="get">
+        <p>Escolaridade
+            <select name="escolaridade">
+                
+            </select>
+        </p>
+
+        <input type="radio" name="cargo" value="1" checked/> Gerência
+        <input type="radio" name="cargo" value="2"/> Financeiro
+        <input type="radio" name="cargo" value="3"/> Recepção
+        <input type="radio" name="cargo" value="4"/> Administrativo
+    </form>
+</body>
+</html>
