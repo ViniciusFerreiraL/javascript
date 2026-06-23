@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario aula 22-06</title>
+</head>
+<body>
+<h1>Formulário</h1>
+
+<fieldset>
+<legend>Dados Pessoais</legend>
+<label>Nome: <input type="text" name="nome"></label><br>
+<label>Idade: <input type="text" name="idade"></label><br>
+<label>Cidade <input type="text" name="cidade"></label><br>
+<label>Estado</label>
+<select name="estado">
+    <option value="ac">Acre</option>
+    <option value="am">Amazonas</option>
+    <option value="Ro">Rondonia</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend>Dados profissionais</legend>
+<label>Escolaridade
+<select name="escolaridade">
+    <option value="em">Ensino Médio</option>
+    <option value="nt">Nível Técnico</option>
+    <option value="ns">Nível Superior</option>
+</select>
+</label>
+<br>
+
+
+<label>Natureza do Cargo
+    <input type="radio" name="cargo" value="1" checked> Gerência
+    <input type="radio" name="cargo" value="2" checked> Financeiro
+    <input type="radio" name="cargo" value="3" checked> Recepção
+    <input type="radio" name="cargo" value="4" checked> Administrativo
+    <input type="radio" name="cargo" value="5" checked> Juridico
+    <br><br>
+
+    Área de Interesse
+    <input type="radio" name="cargo" value="1" checked/> Computação
+        <input type="radio" name="cargo" value="2"/> Biologia
+        <input type="radio" name="cargo" value="3"/> Meio Ambiente
+        <input type="radio" name="cargo" value="4"/> Engenharia
+        <input type="radio" name="cargo" value="5"/> História
+
+    <p>Mini Curriculo: <textarea name="min" cols="20" rows="5"></textarea></p>
+
+
+</fieldset>
+
+<input type="reset" value="Limpar">
+<input type="submit" value= "Enviar">
+</label>
+</form>
+</body>
+</html>
