@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+fieldset{
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario label{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formulario input,
+.formulario select{
+    width: 180px;
+    padding: 5px;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botoes button,
+.botoes input{
+    width: 120px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.botoes input:disabled{
+    background: #cfcfcf;
+    color: #666;
+    cursor: not-allowed;
+}

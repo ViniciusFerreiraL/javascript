@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+    <title>Formulário</title>
+</head>
+<body>
+
+<form>
+    <fieldset>
+        <legend>Preencha o formulário</legend>
+
+        <div class="container">
+
+            <div class="formulario">
+
+                <label>
+                    Mês:
+                    <input type="text" name="mes">
+                </label>
+
+                <label>
+                    Vendedor:
+                    <input type="text" name="vendedor">
+                </label>
+
+                <label>
+                    Região:
+                    <select name="regiao">
+                        <option value="NO">Norte</option>
+                        <option value="NR">Nordeste</option>
+                        <option value="CO">Centro-Oeste</option>
+                        <option value="SO">Sudeste</option>
+                        <option value="SL">Sul</option>
+                    </select>
+                </label>
+
+                <label>
+                    Vendas R$
+                    <input type="text" name="vendas">
+                </label>
+
+            </div>
+
+            <div class="botoes">
+
+                <a href="https://docs.google.com/document/u/0/?hl=pt-BR&tgif=d" target="_blank">
+                    <button type="button">Novo</button>
+                </a>
+
+                <input type="reset" value="Limpar">
+
+                <input type="button" value="Restaurar">
+
+                <a href="https://www.google.com/" target="_blank">
+                    <button type="button">Google</button>
+                </a>
+
+                <a href="https://senaiac.org.br/" target="_blank">
+                    <button type="button">Senai Ac</button>
+                </a>
+
+                <input type="button" value="Desabilitado" disabled>
+
+            </div>
+
+        </div>
+
+    </fieldset>
+</form>
+
+</body>
+</html>
